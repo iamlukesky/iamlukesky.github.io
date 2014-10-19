@@ -81,7 +81,7 @@ class Drip{
  Drip(PVector loc, color c){
   this.loc = loc;
   speed = new PVector(0, random(height*0.0015, height*0.0017));
-  slowdown = new PVector(0, -(speed.y * 0.02);
+  slowdown = new PVector(0, -(speed.y * 0.002);
   strl = random(radius*0.05, radius*0.15);
   this.c = c;
   isAlive = true;
